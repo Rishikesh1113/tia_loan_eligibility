@@ -5,7 +5,7 @@ st.set_page_config(page_title="Bank Loan Eligibility App", page_icon="🏦")
 # -----------------------------
 # Title
 # -----------------------------
-st.title("🏦 Bank Loan Eligibility Prediction")
+st.title("🏦 Rishikesh Bank Loan Eligibility Prediction")
 st.write("Fill in your details to check whether you are eligible for a loan.")
 
 # -----------------------------
@@ -86,3 +86,4 @@ if st.button("🔍 Check Eligibility"):
         st.write("👉 Suggestion: Improve credit score, increase income, or clear existing loans before applying.")
 
     st.info(f"Your Eligibility Score: **{eligibility_score}**")
+
